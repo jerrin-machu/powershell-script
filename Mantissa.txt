@@ -1,0 +1,6 @@
+1. Scenario sheet.
+2. Bug tracking.
+3. Release document.
+
+
+https://bitnami.com/stack/mantis/cloud/aws/amis

@@ -1,0 +1,4 @@
+1. CI CD => Continous integration workflows
+2. YML script
+3. Star pattern
+4. Alphabet pattern.

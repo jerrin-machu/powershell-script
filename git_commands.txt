@@ -1,0 +1,49 @@
+# git configuration 
+# git config --global user.name "xxx"
+# git config --global user.email "xxx@gmail.com"
+# create a new project using git: git init
+# contribute on existing project: git clone 
+# status of the git: git status 
+# adding files to git cache : git add .
+# commiting changes: git commit -m "message" head and master branch is created.
+# to check the history or to check howmany committs are done : git log
+
+# switch between different commits : git checkout commitId
+# To see all the changes of commits :  git log --all
+# create a branch : git branch feature
+# Merge with another branch: git merge feature.
+# check in which branch I am working : git branch
+# To check the new changes inside a file : git diff
+# to delete or remove the unwanted code written in the file : git stash
+
+# Recursive merge and fast forward merge.
+
+# git remote add originname "url" "Remote repository configuration"
+
+# git remote : To check the remote origin
+
+
+
+careers@christkengeri.com
+
+
+
+Param (
+    [Parameter(Mandatory=$true)]
+    [string]
+    $ClearString
+)
+
+$hasher = [System.Security.Cryptography.HashAlgorithm]::Create('sha256')
+$hash = $hasher.ComputeHash([System.Text.Encoding]::UTF8.GetBytes($ClearString))
+
+$hashString = [System.BitConverter]::ToString($hash)
+
+Write-Host $hashString 
+
+
+
+
+
+
+
